@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.bahsra {
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.bahsra h2 {
+    font-size: 16px; 
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.loction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.loction h2 {
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 700;
+}
+.input-in input {
+    padding: 8px 60px;
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: #F0F1F2;
+    border: none;
+}
+.input-in {
+    display: flex;
+    align-items: center;
+}
+.input-in i {
+    position: relative;
+    left: 42px;
+}
+
+.header {
+    display: flex;
+    padding-top: 90px;
+    justify-content: right;
+}
+.Explore-btn button{
+    font-size: 14px;  
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 6px 30px;
+    margin-bottom: 10px;
+    color: #4475F2;
+} 
+span {
+    color: #4475F2;
+}
+.Liburan-h1 h1 {
+    font-size: 76px;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.pahraa-p p {
+    font-size: 16px; 
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.mulai-btn button {
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #4475F2;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.mulai-btn {
+    display: flex;
+    gap: 20px;
+}
+.Explore-img img {
+    max-width: 100%;
+}
+.axon-img {
+    display: flex;
+    justify-content: center;
+}
+.axon-img img {
+    max-width: 100%;
+}
+.DESTINASI-FAVORIT p {
+    font-size: 16px;
+    font-family: "Manrope", serif;
+    font-weight: 400;
+    color: #4475F2;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.temuko-h1 h1 {
+    font-size: 40px;
+    font-family: "Manrope", serif;
+    font-weight: 800;
+    padding-left: 20px;
+}
+.all-card {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.card1-img img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card1-img h1 {
+    font-size: 17px;
+    font-family: "Manrope", serif;
+    font-weight: 600;
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+}
+.card1-img p {
+    font-size: 15px;
+    font-family: "Manrope", serif;
+    font-weight: 300;
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+}
+.jawa-timur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.jawa-h1 h1 {
+    font-size: 40px;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.jawa-pahra p {
+    font-size: 18px;
+    font-family: "Manrope", serif;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.small-card {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.small-h1 h1 {
+    font-size: 22px;
+    font-family: "Manrope", serif;
+    font-weight: 800;
+}
+.small-h1 p {
+    font-size: 18px;
+    font-family: "Manrope", serif;
+    font-weight: 400;
+}
+.small-h1 i {
+    position: relative;
+    top: 30px;
+    left: -35px;
+    font-size: 25px;
+}
+.small-card1 {
+    background-color:#F0F1F2;
+    padding: 0 40px;
+    border-radius: 20px;
+}
+.MENGENAL-DESTINIZE h1 {
+    font-size: 18px;
+    font-family: "Manrope", serif;
+    font-weight: 800;
+    color: #4475F2;
+}
+.galeri-hi h1 {
+    font-size: 38px;
+    font-family: "Manrope", serif;
+    font-weight: 800;
+}
+.MENGENAL-DESTINIZE {
+    padding:60PX
+}
+.big-card {
+    display: flex;
+    justify-content:space-evenly;
+}
+.DESEMBER {
+    padding: 15px;
+}
+.pahra-p p {
+    padding-top: 15px;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.tips-nh1 h1 {
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.jadi-p p {
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.baca-p p {
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    color: #4475F2;
+}
+.tips-img img {
+    max-width: 100%;
+}
+.video-img img {
+    max-width: 100%;
+}
+.tips-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  .tips-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  .air {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .air-img img {
+    max-width: 100%;
+  }
+  .air-h1 {
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .pahraa-p p {
+    color: white;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+  }
+  .tag-g a {
+    font-size: 14px;
+    font-family: "Manrope", serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  } 
+  .tag-g {
+    display: flex;
+    gap: 10px;
+  }
+  .airheading {
+    padding-top: 30px;
+    position: absolute;
+    left: 110px;
+  }
+  .TESTIMONIAL {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .TESTIMONIAL-h2 h2 {
+    font-size: 18px;
+    font-family: "Manrope", serif;
+    font-weight: 600;
+    color: #4475F2;
+    margin-bottom: 15px;
+  }
+  .Apa-Kata h1 {
+    font-size: 56px;
+    font-family: "Manrope", serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .apai-p p {
+    font-size: 18px;
+    font-family: "Manrope", serif;
+    font-weight: 400;
+  }
+  .last-card-img img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .last-pahra p {
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .shot-p p {
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    color: #4475F2;
+    margin-bottom: 15px;
+  }
+  .shot-hp {
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+  }
+  .star img {
+    margin-bottom: 15px;
+  }
+ .last-card-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #e0c3c3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding: 30px 30px;
+ }
+ .last-card-img:hover {
+    background-color: antiquewhite;
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+ }
+ .footer-card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    margin-bottom: 60px;
+ }
+ .last-card {
+    text-align: center;
+ }
+.naksa img {
+    max-width: 100%;
+}
+
+
+ @media (max-width:800px) {
+    .header {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .all-card {
+        flex-wrap: wrap;
+    }
+    .small-card {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .big-card {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .footer-card {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .Liburan-h1 h1 {
+        margin-bottom: 0;
+    }
+    .Apa-Kata h1 {
+        font-size: 40px;
+    }
+    .airheading {
+        padding-top: 0;
+        left: 40px;
+    }
+    .air-h1 {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .jawa-pahra p {
+        font-size: 17px;
+    }
+ }
+
+ @media (max-width:834px) {
+    .header {
+        padding-top: 45px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Liburan-h1 h1 {
+        margin-bottom: 0;
+    }
+    .all-card {
+        flex-wrap: wrap;
+    }
+    .small-card {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .big-card {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        display: flex;
+    }
+    .airheading {
+        padding-top: 0;
+        left: 55px;
+    }
+    .air-h1 {
+        margin-bottom: 6px;
+    }
+    .pahraa-p p {
+        margin-bottom: 23px;
+    }
+    .TESTIMONIAL {
+        padding-top: 35px;
+    }
+    .Apa-Kata h1 {
+        font-size: 44px;
+    }
+    .footer-card {
+        padding-top: 45px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .DESTINASI-FAVORIT p {
+        padding-left: 74px;
+    }
+    .temuko-h1 h1 {
+        padding-left: 73px;
+    }
+    .axon-img img {
+        max-width: 90%;
+    }
+    .naksa img {
+        max-width: 95%;
+    }
+ }
+
+ @media (max-width:428px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .Liburan-h1 h1 {
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .pahraa-p p {
+        margin-bottom: -60px;
+    }
+    .Explore {
+        padding-left: 20px;
+    }
+    .input-in input {
+        padding: 8px 15px;
+    }
+    .input-in i {
+        position: relative;
+        left: 148px;
+    }
+    .bahsra h2 {
+        font-size: 12px;
+    }
+    .loction h2 {
+        font-size: 12px;
+    }
+    .temuko-h1 h1 {
+        font-size: 16px;
+    }
+    .DESTINASI-FAVORIT p {
+        font-size: 13px;
+    }
+    .jawa-h1 h1 {
+        font-size: 18px;
+    }
+    .jawa-pahra p {
+        font-size: 9px;
+        opacity: 0.9;
+    }
+    .galeri-hi h1 {
+        font-size: 20px;
+        color: black;
+    }
+    .air-h1 {
+        font-size: 6px;
+    }
+    .pahraa-p p {
+        font-size: 8px;
+    }
+    .Apa-Kata h1 {
+        font-size: 30px;
+    }
+    .apai-p p {
+        font-size: 18px;
+    }
+    .mulai-btn {
+        display: flex;
+        gap: 20px;
+        padding-top: 50px;
+    }
+ }
+
+ @media (max-width:360px) {
+    .mulai-btn button {
+        font-size: 11px;
+    }
+    .Explore-btn button {
+        font-size: 10px;
+    }
+    .jawa-pahra p {
+        font-size: 7px;
+        opacity: 0.9;
+    }
+    .Apa-Kata h1 {
+        font-size: 16px;
+    }
+    .TESTIMONIAL-h2 h2 {
+        font-size: 14px;
+    }
+    .apai-p p {
+        font-size: 15px;
+    }
+    .Liburan-h1 h1 {
+        font-size: 34px;
+        margin-bottom: 0;
+    }
+ }
